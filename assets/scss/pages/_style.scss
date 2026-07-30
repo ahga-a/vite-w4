@@ -1,0 +1,257 @@
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.customer {
+    margin-left: auto;
+
+}
+
+.customer span {
+    font-weight: 18px;
+    padding: 12px;
+}
+
+.logo {
+    font-family: "Mina";
+    margin-right: 48px;
+}
+
+.dash {
+    font-weight: 700;
+    letter-spacing: 0%;
+    color: $neutral-300;
+    margin: 0px 12px;
+}
+
+.title {
+    padding: 7px 0px;
+}
+
+.productsNav {
+    padding-top: 4px;
+}
+
+.productsNav ul li {
+    padding: 8px 0px;
+    margin-bottom: 16px;
+}
+
+.cards {
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card {
+    max-width: calc(33.3333% - (48px/3));
+    padding-bottom: 24px;
+}
+
+.card img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.pages ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages li {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 4px;
+}
+
+.pages li:hover {
+    background: $neutral-100;
+}
+
+.pages li:active {
+    background: $primary-300;
+}
+
+.pages li a {
+    display: block;
+    padding: 8px;
+    font-weight: 400;
+}
+
+.banner {
+    text-align: center;
+    background: $primary-200;
+    padding: 33.5px 0px;
+    margin-bottom: 64px;
+}
+
+.footerlink {
+    align-items: center;
+    margin-left: auto;
+}
+.footerlink a{
+    display: block;
+}
+
+.copyright {
+    padding-top: 32px;
+    border-top: 1px solid $neutral-300;
+    margin-bottom: 64px;
+}
+
+.copyright p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 5%;
+    color:$neutral-600;
+    text-align: center;
+}
+
+.shoesimg {
+    max-width: 746px;
+    flex-wrap: wrap;
+    gap:8px;
+}
+.shoesimg li{
+    width:calc(50% - 6px);
+}
+
+.shoesimg img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.normalprice {
+    margin-left: 8px;
+    color: $neutral-500;
+    font-size: 14px;
+    line-height: 150%;
+    text-decoration: line-through;
+}
+.productIntro{
+    width: 100%;
+}
+.color {
+    text-align: center;
+    max-width: 64px;
+}
+
+.color img {
+    max-width: 100%;
+    display: block;
+    margin-bottom:4px;
+}
+
+.sizes {
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.sizes a {
+    box-sizing: border-box;
+    border: 1px solid $neutral-300;
+    border-radius: 4px;
+    padding: 12px 24px;
+    width: 160px;
+    text-align: center;
+}
+
+.abled:hover {
+    border: 1px solid $neutral-600;
+}
+
+.abled:active {
+    border: 1px solid $neutral-900;
+}
+
+.reserve {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 5%;
+    color: $danger-300;
+    margin-bottom: 48px;
+}
+
+.like,
+.keep {
+    border: 1px solid $neutral-900;
+    border-radius: 4px;
+    width: 50%;
+    text-align: center;
+}
+
+.like p,
+.keep p {
+    padding: 12px 0px;
+}
+
+.like:hover,
+.keep:hover {
+    background: $neutral-900;
+}
+
+.like p:hover,
+.keep p:hover {
+    color: $neutral-0;
+}
+.heart{
+    color:$neutral-900;
+    padding: 12px;
+    margin-left: 8px;
+}
+.heart i{
+    font-size: 24px;
+}
+.caption {
+    padding-top: 12px;
+    padding-bottom: 4px;
+}
+
+.text h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 5%;
+}
+
+.text li {
+    font-weight: 400;
+    color: $neutral-600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 5%;
+    max-width: 526px;
+}
+
+.text p {
+    font-weight: 400;
+    color: $neutral-600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 5%;
+    padding-bottom: 12px;
+    max-width: 526px;
+}
+
+.bestseller {
+    padding: 48px 0px;
+    margin-bottom: 40px;
+}
+.bestseller h4{
+    padding: 9.5px 0px;
+}
+.productName{
+    font-weight: 700;
+    line-height: 120%;
+}

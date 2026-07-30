@@ -1,0 +1,259 @@
+@media (max-width:576px) {
+
+    /* style */
+    h2 {
+        font-size: 24px;
+    }
+    h4{
+        font-size: 20px;
+    }
+
+
+
+    /* label */
+    .nav {
+        padding: 12px 0px;
+        margin-bottom: 0;
+    }
+
+    .logo {
+        padding: 8px 12px;
+        margin: 0;
+    }
+
+    .dash {
+        font-weight: 700;
+        font-size: 16px;
+        margin: 0px 8px;
+    }
+
+    .title {
+        font-size: 24px;
+        padding: 9.5px 0px;
+    }
+
+    .cards {
+        gap: 12px;
+    }
+
+    .card {
+        max-width: calc(50% - 12px);
+        padding-bottom: 12px;
+    }
+
+    .banner {
+        padding: 32px 0px;
+        margin-bottom: 0;
+    }
+
+    .banner h4 {
+        font-size: 20px;
+    }
+
+    .banner button {
+        margin-left: 16px;
+        padding: 8px 16px;
+    }
+    .footerlink{
+        margin: 0px 12px;
+    }
+    .footerlink p{
+        margin-right: 0px;
+    }
+    .copyright{
+        margin-bottom: 0;
+    }
+    .shoesimg li{
+    width:100%;
+    }
+    .keep{
+        width:100%; 
+        background-color: $neutral-900;
+    }
+    .keep:hover{
+        background-color: $neutral-0;
+    }
+
+    .keep p{
+        color:$neutral-0;
+        text-align: center;
+    }
+    .keep:hover p{
+        color:$neutral-900;
+    }
+    .bestseller{
+        padding: 40px 0px;
+        margin-bottom: 24px;
+    }
+    .bestseller h4{
+        padding: 8px 0px;
+    }
+
+    .slider{
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+    .cards{
+        max-width: 100%;
+
+    }
+    .card {
+        min-width:300px;
+        padding-bottom: 0px;
+        padding-right: 0px;      
+    }
+    .card-1{
+        min-width: calc(50% - 6px);
+    }
+    .index-title{
+        position: unset;
+        background-image: url(../assets/images/001.png);
+        height: 450px;
+    }
+    .index-title-text{
+        padding: 155px 24px;
+        position: unset;
+    }
+
+    .pr-sm-4{
+        padding-right: 4px;
+    }
+    .series{
+        flex-wrap: wrap;
+    }
+    .series img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    }
+
+    .mark2 p{
+        font-size: 16px;
+    }
+    /* utilies */
+    .d-sm-none {
+        display: none;
+    }
+    .d-sm-block{
+        display: block;
+    }
+
+    .fw-sm-700 {
+        font-weight: 700;
+    }
+    .fz-sm-14{
+        font-size: 14px;
+    }
+    .fz-sm-16{
+        font-size: 16px;
+    }
+    .fz-sm-24{
+        font-size: 24px;
+    }
+    .fz-sm-28{
+        font-size: 28px;
+    }
+    .fz-sm-32{
+        font-size: 32px;
+    }
+    .fz-sm-48{
+        font-size: 48px;
+    }
+    .fz-sm-20{
+        font-size: 20px;
+    }
+    .mb-sm-0 {
+        margin-bottom: 0;
+    }
+    .mb-sm-8 {
+        margin-bottom: 8px;
+    }
+
+    .mb-sm-12 {
+        margin-bottom: 12px;
+    }
+    .mb-sm-4{
+    margin-bottom: 4px;
+}
+    .mb-sm-16 {
+        margin-bottom: 16px;
+    }
+
+    .mb-sm-24 {
+        margin-bottom: 24px;
+    }
+    .mb-sm-32{
+        margin-bottom: 32px;
+    }
+    .mb-sm-40{
+        margin-bottom: 40px;
+    }
+    .my-sm-24{
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .px-sm-0{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .px-sm-8{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .px-sm-12{
+        padding: 0px 12px;
+    }
+    .pb-sm-0{
+        padding-bottom: 0;
+    }
+    .pb-sm-8 {
+        padding-bottom: 8px;
+    }
+    .pb-sm-16 {
+        padding-bottom: 16px;
+    }
+    .pb-sm-24{
+        padding-bottom: 24px;
+    }
+    .py-sm-12{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .py-sm-32{
+        padding: 32px 0px;
+    }
+    .py-sm-40{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .py-sm-64{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .fw-sm-nowrap{
+        flex-wrap: nowrap;
+    }
+    .row{
+        margin-right: -6px;
+        margin-left: -6px;
+    }
+    .col-sm-4{
+        width: 100%;
+    }
+    .col-sm-2{
+        width: 50%;
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+    .row2{
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .best img{
+        min-width: 300px;
+    }
+    .col2-4, .col2-6, .col2-12{
+        width: unset;
+        padding: 0px 8px;
+    }
+}

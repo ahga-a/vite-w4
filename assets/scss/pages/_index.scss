@@ -1,0 +1,105 @@
+.index-title{
+    background-image: url(../assets/images/index-title.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 800px;
+    position: relative;
+}
+.index-title-text{
+    color: $neutral-0;
+    position: absolute;
+    top: 289px;
+    left: calc(50% - 760px);
+}
+
+.p-r{
+    position: relative;
+    display: inline-block;
+}
+
+.mark{
+    position: absolute;
+    top: 0px;
+    left: 12px;
+    padding: 8px 12px;
+    color: $primary-400;
+    background: $primary-100;
+}
+
+.mark2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 8px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.mark2 p{
+    color: $neutral-0;
+}
+
+.middle-banner{
+    background-image: url(../assets/images/006.png);
+    background-size: cover;
+    flex-wrap: nowrap;
+    background-position: center;
+    padding-top:100px;
+    padding-bottom: 100px;
+    color: $neutral-0;
+    position: relative;
+}
+.star{
+    width: 48px;
+    position: absolute;
+    top: 48px;
+    left: calc(50% - 397px);
+}
+.sparkle{
+    position: absolute;
+    width: 76px;
+    bottom: 132px;
+    right: calc(50% - 357px);
+}
+.brightness-40{
+    filter:brightness(60%);
+}
+
+.dresscode img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.mobile-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mobile-list h5{
+    width: 50%;
+    text-align: center;
+    padding: 12px 0px;
+}
+.row2{
+    margin-right: -4px;
+    margin-left: -4px;
+}
+.col2-4{
+    width: 33.333333%;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.col2-6{
+    width: 50%;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.col2-12{
+    width: 100%;
+    padding-left: 4px;
+    padding-right: 4px;
+}
