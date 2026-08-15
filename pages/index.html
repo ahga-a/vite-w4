@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-  <title></title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -42,22 +42,22 @@
 
       <div class="row df fww new">
         <div class="col-6 pb40 col-sm-2 pb-sm-24">
-          <img src="../assets/images/002.png" alt="product" class="mb12 mb-sm-8">
+          <img src="../assets/images/002.png" alt="product" class="mb12 mb-sm-8" data-aos="flip-left" data-aos-delay="100">
           <h5 class="h5 mb4 fw700 mb-sm-0">Monoverse</h5>
           <p class="md">NT$3,600</p>
         </div>
         <div class="col-6 pb40 col-sm-2 pb-sm-24">
-          <img src="../assets/images/003.png" alt="product" class="mb12 mb-sm-8">
+          <img src="../assets/images/003.png" alt="product" class="mb12 mb-sm-8" data-aos="flip-left" data-aos-delay="300">
           <h5 class="h5 mb4 fw700 mb-sm-0">PLATFORM 404</h5>
           <p class="md">NT$2,600</p>
         </div>
         <div class="col-6 pb40 mb24 col-sm-2 pb-sm-24 mb-sm-16">
-          <img src="../assets/images/004.png" alt="product" class="mb12 mb-sm-8">
+          <img src="../assets/images/004.png" alt="product" class="mb12 mb-sm-8" data-aos="flip-left" data-aos-delay="400">
           <h5 class="h5 mb4 fw700 mb-sm-0">URBN Force</h5>
           <p class="md">NT$3,200</p>
         </div>
         <div class="col-6 pb40 mb24 col-sm-2 pb-sm-24 mb-sm-16">
-          <img src="../assets/images/005.png" alt="product" class="mb12 mb-sm-8">
+          <img src="../assets/images/005.png" alt="product" class="mb12 mb-sm-8" data-aos="flip-left" data-aos-delay="600">
           <h5 class="h5 mb4 fw700 mb-sm-0">Mode90</h5>
           <p class="md">NT$4,000</p>
         </div>
@@ -67,19 +67,19 @@
       <div class="py64 py-sm-40">
         <h4 class="h2 fw700 mb16 fz-sm-24">熱銷補貨</h4>
         <div class="row df slider best">
-          <div class="col-3 p-r col-sm-4 pr-sm-4">
+          <div class="col-3 p-r col-sm-4 pr-sm-4 scale">
             <img src="../assets/images/Type=Melty Kiss.png" alt="shoes">
             <p class="sm mark">人氣 No.1</p>
           </div>
-          <div class="col-3 p-r col-sm-4 pr-sm-4">
+          <div class="col-3 p-r col-sm-4 pr-sm-4 scale">
             <img src="../assets/images/Type=PLATFORM 404-Navy.png" alt="shoes">
             <p class="sm mark">人氣 No.1</p>
           </div>
-          <div class="col-3 p-r col-sm-4 pr-sm-4">
+          <div class="col-3 p-r col-sm-4 pr-sm-4 scale">
             <img src="../assets/images/Type=R_UNER.png" alt="shoes">
             <p class="sm mark">人氣 No.1</p>
           </div>
-          <div class="col-3 p-r col-sm-4">
+          <div class="col-3 p-r col-sm-4 scale">
             <img src="../assets/images/Type=BOOMBLOK-White.png" alt="shoes">
             <p class="sm mark">人氣 No.1</p>
           </div>
@@ -204,6 +204,7 @@
     <%- include('./layout/footer'); -%>
 
       <script type="module" src="../main.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 
 </html>
